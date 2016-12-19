@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+#blue{
+
+    background-image: url("../img/flins.jpg");
+
+
+}
+#green{
+    background-image: url("../img/flinsto.jpg");
+
+
+}
+#yellow{
+    background-image: url("../img/flinst.jpg");
+
+}
+#red{
+    background-image: url("../img/flinston.jpg");
+
+}
+.box{
+
+    width: 22%;
+    height: 500px;
+    border: 2px solid black;
+    float: left;
+    color:transparent;
+    border-radius:20px;
+    margin-left: 3%;
+    margin-top: 3%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#title{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 130px;
+    color: wheat;
+}
+.btn{
+    border-radius:10px;
+    height:100px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-size: 35px;
+    background-color: lightskyblue;
+    color: black;
+    font-family:fantasy;
+}
+.btn:hover{
+    background-color: yellow;
+}
+#gameboard{
+    display: none;
+}
+#body{
+    background-image: url("../img/piano.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#level{
+    display: none;
+    text-align: center;
+    font-size: 130px;
+    color: wheat;
+    margin-top: 20%;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+}
+#gameover{
+    display: none;
+    text-align: center;
+    font-size: 130px;
+    color: wheat;
+    margin-top: 20%;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+}

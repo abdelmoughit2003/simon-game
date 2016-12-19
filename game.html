@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/game.css">
+    <title>Game</title>
+    <script src="js/jquery.js"></script>
+</head>
+<body id= "body" >
+    <audio id="piano" autoplay>
+        <source src="mp3/piano.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="play">
+        <source src="mp3/happy.mp3" type="audio/mpeg">
+    </audio>
+    <div id = "gameboard">
+        <div class = "box" id ="blue">0</div>
+        <div class = "box" id ="green">1</div>
+        <div class = "box" id ="yellow">2</div>
+        <div class = "box" id ="red">3</div>
+
+
+    </div>
+    <div id="title"> Simon game</div>
+    <button class = "btn">Play Game</button>
+    <div id = "level"></div>
+    <div id = "gameover">Game over</div>
+
+<script src="js/game.js"></script>
+</body>
+</html>
